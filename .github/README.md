@@ -4,12 +4,24 @@ Embrace the Blue Screen.
 
 Own this grub theme. Make it the first thing you see...
 
+Fork from https://github.com/harishnkr/bsol, all I did was add an install script and change the font
+
 ![preview image](preview.png)
 
 # How to Install
 
 > :warning: **Make sure you understand what you are doing. Installation of the theme can cause problems in your system if done incorrectly** 
 
+## Automatic installation
+```
+git clone https://github.com/zycata/bsol-z.git
+
+# make sure you're in the project directory
+cd bsol-z
+
+sudo ./install.sh
+```
+And you're done
 
 ## Manual Installation (preferred method) 
 
@@ -57,6 +69,7 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 If you use Arch linux or derivatives, use this [package](https://aur.archlinux.org/packages/grub-theme-bsol-git)
 run `grub-install --themes=bsol` followed by `grub-mkconfig -o /boot/grub/grub.cfg"` both with `sudo` privileges.
+
 
 
 ## Configuration
