@@ -49,10 +49,9 @@ fi
 
 
 
-echo "Running Os Prober"
 if command -v grub-mkconfig > /dev/null 2>&1; then
     echo "GRUB is installed. Updating config..."
-    sudo grub-mkconfig -o /boot/grub/grub.cfg
+    sudo grub-mkconfig -o /boot/grub/grub.cfg > /dev/null 2>&1
 else
     echo "GRUB not found. Skipping boot update."
     exit 1
