@@ -2,7 +2,7 @@
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
-terminal-font: "Victor Mono Italic 20"
+terminal-font: "Segoe UI This Regular 20"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -16,7 +16,7 @@ terminal-border: "0"
   top = 53%
   width = 47%
   height = 65%
-  item_font =  "Victor Mono Bold Italic 24"
+  item_font =  "Segoe UI This Regular 24"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
   icon_width = 50
@@ -37,5 +37,5 @@ terminal-border: "0"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
   color = "#cccccc"
-  font = "Victor Mono Bold Italic 28"
+  font = "Segoe UI This Regular 28"
 }
