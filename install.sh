@@ -26,7 +26,7 @@ THEME_PATH="$GRUB_PATH/themes"
 
 # making the path and copying files
 mkdir -p "$THEME_PATH"
-cp -ru ./$bsol/ $THEME_PATH
+cp -ru ./bsol/ $THEME_PATH
 if [ $? -eq 0 ]; then
     echo "sucessfully copied files to: $THEME_PATH"
 else
